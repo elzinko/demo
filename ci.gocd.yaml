@@ -12,4 +12,5 @@ pipelines:
             build: # name of the job
               tasks:
                - exec: # indicates type of task
-                   command: docker version
+                   command: docker version 
+#some comment
