@@ -1,10 +1,10 @@
 {
-  "name": "firstpipe",
+  "name": "demo",
   "environment_variables": [],
   "group" : "configrepo-example",
   "materials": [
     {
-      "url": "https://github.com/tomzo/gocd-json-config-example.git",
+      "url": "/Users/elzinko/git/cd/demo",
       "type": "git"
     }
   ],
@@ -27,7 +27,8 @@
           "timeout": 0,
           "tasks": [
             {
-              "type": "rake"
+              "type": "exec",
+	      "command": "echo 'build task'"
             }
           ]
         }

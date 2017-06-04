@@ -5,7 +5,7 @@ pipelines:
     materials:
       git-demo:  # this is the name of material
         # says about type of material and url at once
-        git: http://my.example.org/mygit.git
+        git: https://github.com/elzinko/demo.git
     stages:
       - build: # name of stage
           jobs:
