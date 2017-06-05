@@ -20,7 +20,7 @@ pipelines:
             docker-version: # name of the job
               tasks:
                - exec: # indicates type of task
-                   command: "docker"
+                   command: "docker" # test
 		   arguments:
 		    - "run"
 		    - "--rm"
