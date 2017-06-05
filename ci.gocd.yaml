@@ -22,5 +22,6 @@ pipelines:
                - exec: # indicates type of task
                    command: docker
 		   arguments:
-                    - "version"
+                    - "run"
+                    - "hellp-world"
  
