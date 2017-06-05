@@ -1,6 +1,6 @@
 # simple.gocd.yaml
 pipelines:
-  demo:
+  demo1:
     group: demo
     materials:
       svn:  # this is the name of material
