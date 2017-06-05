@@ -1,6 +1,6 @@
 # simple.gocd.yaml
 pipelines:
-  dev2:
+  demo:
     group: demo
     materials:
       svn:  # this is the name of material
@@ -9,7 +9,7 @@ pipelines:
     stages:
       - build: # name of stage
           jobs:
-            docker: # name of the job
+            docker-version: # name of the job
               tasks:
                - exec: # indicates type of task
                    command: docker version 
