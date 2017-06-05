@@ -20,10 +20,10 @@ pipelines:
             docker-version: # name of the job
               tasks:
                - exec: # indicates type of task
-                   command: "docker" # test
-		   arguments:
-		    - "run"
-		    - "--rm"
-                    - "--cap-drop=all"
-                    - "hello-world"
+                   command: docker 
+		   #arguments:
+		   # - "run"
+		   # - "--rm"
+                   # - "--cap-drop=all"
+                   # - "hello-world"
  
