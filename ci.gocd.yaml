@@ -21,9 +21,4 @@ pipelines:
               tasks:
                - exec: # indicates type of task
                    command: docker 
-		   #arguments:
-		   # - "run"
-		   # - "--rm"
-                   # - "--cap-drop=all"
-                   # - "hello-world"
  
