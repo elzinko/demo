@@ -19,7 +19,7 @@ public class Application {
         } catch (UnknownHostException e) {
           e.printStackTrace();
         }
-        return "Hello Docker World\nMy IP is : " + ip.getHostAddress();
+        return "Hello Docker World v1.0 : " + ip.getHostAddress();
     }
 
     public static void main(String[] args) {
