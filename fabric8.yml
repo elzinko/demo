@@ -1,0 +1,13 @@
+---
+buildName: "demo"
+links:
+  Git: "https://github.com/elzinko/demo.git"
+  Job: "http://jenkins.default.192.168.64.2.xip.io/job/demo"
+  Production: "http://172.30.79.12:80/kubernetes/pods?namespace=default-production"
+  Staging: "http://172.30.79.12:80/kubernetes/pods?namespace=default-staging"
+  Testing: "http://172.30.79.12:80/kubernetes/pods?namespace=default-testing"
+environments:
+  Testing: "default-testing"
+  Staging: "default-staging"
+  Production: "default-production"
+useLocalFlow: true
